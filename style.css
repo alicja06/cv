@@ -1,0 +1,230 @@
+body
+{
+    background-color: black;
+    color: #ffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle
+{
+    width: 960px;
+    margin: 20px;
+    text-align: center;
+}
+
+.square
+{
+    width: 50%;
+    float: left;
+}
+
+#logo
+{
+  float: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  width: 600px;
+  text-align: left;
+}
+
+#stanowisko
+{
+    float: left;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.tile1
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #a708fd;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile1:hover
+{
+    background-color: #f0f70b;
+}
+
+.tile6
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #a708fd;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile6:hover
+{
+    background-color: #feea0b;
+}
+
+
+.tile2
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #a708fd;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile2:hover
+{
+    background-color: #feea0b;
+}
+
+.tile3
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #a708fd;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile3:hover
+{
+    background-color: #feea0b;
+}
+
+.tile4
+{
+    margin: 10px;
+    width: 480px;
+    height: 142px;
+    background-color: #8b1b93;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile5
+{
+    margin: 10px;
+    width: 420px;
+    height: 244px;
+    background-color: #666666;
+    text-align: justify;
+    padding: 30px;
+}
+
+.artykuł1
+{
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #feea0b;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artykuł1:hover
+{
+    background-color: #8b1b93;
+}
+
+.artykuł2
+{
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #feea0b;
+    float: left;
+    text-align: center;
+}
+
+.artykuł2:hover
+{
+    background-color: #8b1b93;
+}
+
+.media1
+{
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #feea0b;
+    float: left;
+    text-align: center;
+}
+
+.media1:hover
+{
+    background-color: #8b1b93;
+}
+
+.media2
+{
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #feea0b;
+    float: left;
+    text-align: center;
+}
+
+.media2:hover
+{
+    background-color: #8b1b93;
+}
+
+
+a.tilelinkhtml5
+{
+    color: white;
+    text-decoration: none;
+}
+
+a.sociallink
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 105px;
+    height: 142px;
+}
+
+.text
+{
+    margin: 10px;
+}
