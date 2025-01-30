@@ -13,6 +13,10 @@ body
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .rectangle
@@ -25,12 +29,12 @@ body
 .square
 {
     width: 50%;
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #logo
 {
-  float: left;
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-size: 70px;
@@ -40,7 +44,6 @@ body
 
 #stanowisko
 {
-    float: left;
     font-family: "Josefin Sans", sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -48,75 +51,19 @@ body
     margin-top: 20px;
 }
 
-.tile1
+.tile1, .tile2, .tile3, .tile6
 {
     margin: 10px;
     width: 230px;
     height: 142px;
     background-color: #a708fd;
-    float: left;
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.tile1:hover
-{
-    background-color: #f0f70b;
-}
-
-.tile6
-{
-    margin: 10px;
-    width: 230px;
-    height: 142px;
-    background-color: #a708fd;
-    float: left;
-    text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.tile6:hover
-{
-    background-color: #feea0b;
-}
-
-
-.tile2
-{
-    margin: 10px;
-    width: 230px;
-    height: 142px;
-    background-color: #a708fd;
-    float: left;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tile2:hover
-{
-    background-color: #feea0b;
-}
-
-.tile3
-{
-    margin: 10px;
-    width: 230px;
-    height: 142px;
-    background-color: #a708fd;
-    float: left;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tile3:hover
+.tile1:hover, .tile2:hover, .tile3:hover, .tile6:hover
 {
     background-color: #feea0b;
 }
@@ -129,9 +76,11 @@ body
     background-color: #8b1b93;
     text-align: center;
     font-style: italic;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .tile5
@@ -144,70 +93,23 @@ body
     padding: 30px;
 }
 
-.artykuł1
+.artykuł1, .artykuł2, .media1, .media2
 {
     margin: 10px;
     width: 105px;
     height: 142px;
     background-color: #feea0b;
-    float: left;
     text-align: center;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-.artykuł1:hover
+.artykuł1:hover, .artykuł2:hover, .media1:hover, .media2:hover
 {
     background-color: #8b1b93;
 }
-
-.artykuł2
-{
-    margin: 10px;
-    width: 105px;
-    height: 142px;
-    background-color: #feea0b;
-    float: left;
-    text-align: center;
-}
-
-.artykuł2:hover
-{
-    background-color: #8b1b93;
-}
-
-.media1
-{
-    margin: 10px;
-    width: 105px;
-    height: 142px;
-    background-color: #feea0b;
-    float: left;
-    text-align: center;
-}
-
-.media1:hover
-{
-    background-color: #8b1b93;
-}
-
-.media2
-{
-    margin: 10px;
-    width: 105px;
-    height: 142px;
-    background-color: #feea0b;
-    float: left;
-    text-align: center;
-}
-
-.media2:hover
-{
-    background-color: #8b1b93;
-}
-
 
 a.tilelinkhtml5
 {
@@ -227,4 +129,12 @@ a.sociallink
 .text
 {
     margin: 10px;
+}
+
+.bottom-section 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    margin-top: 20px; 
 }
