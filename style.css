@@ -65,7 +65,7 @@ body
 
 .tile1:hover, .tile2:hover, .tile3:hover, .tile6:hover
 {
-    background-color: #feea0b;
+    background-color: #ceab36;
 }
 
 .tile4
@@ -98,7 +98,7 @@ body
     margin: 10px;
     width: 105px;
     height: 142px;
-    background-color: #feea0b;
+    background-color: #ceab36;
     text-align: center;
     display: block;
     justify-content: center;
